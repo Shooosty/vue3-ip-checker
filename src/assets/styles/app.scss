@@ -1,0 +1,47 @@
+*,
+* ::before,
+* ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-overflow-scrolling:touch;
+  background-color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  min-height: 100svh;
+  padding: 5rem 1rem;
+  height: 100%;
+}
+
+h1 {
+  padding: 1rem 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1240px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
